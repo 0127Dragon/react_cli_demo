@@ -1,0 +1,17 @@
+.toDoListItem{
+    text-align:left;
+    border:1px solid;
+    height: 35px;
+    line-height: 35px;
+    cursor: pointer;
+    padding: 0 5px;
+}
+ul .toDoListItem:not(:last-child){
+    border-bottom: 0px;
+}
+.li_selected{
+    background-color: #ddd;
+}
+.li_selected button{
+    display: block;
+}
